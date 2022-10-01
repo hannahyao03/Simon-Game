@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  background-color: #fffdf5;
+  margin: 0;
+  padding: 0;
+}
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5rem;
+  margin-top: 3%;
+}
+
+.instructions {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.instructions .play-button {
+  border: 5px solid black;
+  cursor: pointer;
+}
+.instructions .play-button .play-outline {
+  background-color: #dedcd5;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-bottom: 5px solid rgb(107, 104, 104);
+  border-right: 5px solid rgb(107, 104, 104);
+  padding: 1.4em 1.8em 1em 2em;
+}
+.instructions .play-button .play-outline p.play {
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+.instructions .rules {
+  font-family: "Electrolize", sans-serif;
+  width: 50%;
+}
+.instructions .rules a {
+  color: black;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+.container .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .outline {
+  margin: 25px;
+  border: 5px solid black;
+}
+.container .btn {
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+.container .red {
+  background-color: #ff817a;
+  border-top: 5px solid #febfbc;
+  border-left: 5px solid #febfbc;
+  border-bottom: 5px solid #cb6862;
+  border-right: 5px solid #cb6862;
+}
+.container .green {
+  background-color: #b1e692;
+  border-top: 5px solid #e6fcd9;
+  border-left: 5px solid #e6fcd9;
+  border-bottom: 5px solid #85ab6f;
+  border-right: 5px solid #85ab6f;
+}
+.container .blue {
+  background-color: rgb(159, 218, 255);
+  border-top: 5px solid rgb(226, 244, 254);
+  border-left: 5px solid rgb(226, 244, 254);
+  border-bottom: 5px solid rgb(98, 137, 162);
+  border-right: 5px solid rgb(98, 137, 162);
+}
+.container .yellow {
+  background-color: #fdf697;
+  border-top: 5px solid #fffeeb;
+  border-left: 5px solid #fffeeb;
+  border-bottom: 5px solid #ddd352;
+  border-right: 5px solid #ddd352;
+}
+
+.game-over {
+  background-color: #ff817a;
+  opacity: 0.8;
+}/*# sourceMappingURL=main.css.map */

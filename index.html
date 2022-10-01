@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Simon</title>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="level-title">Press Play to Start</h1>
+        <div class="instructions">
+            <div class="play-button">
+                <div class="play-outline">
+                    <p class="play">PLAY</p>
+                </div>
+            </div>
+
+            <div class="rules">
+                <h2>How To Play</h2>
+                <p>
+                    <a href="https://en.wikipedia.org/wiki/Simon_(game)" target="_blank">Simon</a> is a game that tests your
+                    short-term memory! At each level, one of the tiles will flash. Pass the level by 
+                    correctly hitting the sequence of tiles from any previous levels, plus the new tile that flashed.</p>
+            </div>
+            
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="outline">
+                    <div type="button" id="green" class="btn green"></div>
+                </div>
+                
+                <div class="outline">
+                    <div type="button" id="red" class="btn red"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="outline">
+                    <div type="button" id="yellow" class="btn yellow"></div>
+                </div>
+
+                <div class="outline">
+                    <div type="button" id="blue" class="btn blue"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="js/game.js"></script>
+    </body>
+</html>
